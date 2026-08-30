@@ -1,0 +1,15 @@
+{
+  "name": "crown-casino-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Бот Crown Casino: раздаёт Mini App и принимает оплату Telegram Stars за премиум",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
